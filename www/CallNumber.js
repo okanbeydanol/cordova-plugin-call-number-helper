@@ -1,16 +1,15 @@
 function CallNumber() { }
 
-CallNumber.prototype.callNumber = function (success, failure, number, bypassAppChooser) {
-    cordova.exec(success, failure, "CallNumber", "callNumber", [number, bypassAppChooser]);
+CallNumber.prototype.callNumber = function (success, error, number, bypassAppChooser) {
+    cordova.exec(success, error, 'CallNumber', 'callNumber', [number, bypassAppChooser]);
 };
 
-CallNumber.prototype.isCallSupported = function (success, failure) {
-    cordova.exec(success, failure, "CallNumber", "isCallSupported");
-}
-
+CallNumber.prototype.isCallSupported = function (success, error) {
+    cordova.exec(success, error, 'CallNumber', 'isCallSupported', []);
+};
 
 module.exports = new CallNumber();
-module.exports.CallNumber = module.exports;
+module.exports.CallNumber = module.exports; // Add this line
 
 // For ES module import support
 if (typeof window !== 'undefined' && window.cordova && window.cordova.plugins) {
