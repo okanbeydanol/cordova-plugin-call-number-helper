@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-call-number-helper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Cordova Call Number Plugin",
   "cordova": {
     "id": "cordova-plugin-call-number-helper",
