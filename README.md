@@ -1,4 +1,4 @@
-# [Cordova Volume Control](https://github.com/okanbeydanol/cordova-plugin-call-number-helper) [![Release](https://img.shields.io/npm/v/cordova-plugin-call-number-helper.svg?style=flat)](https://github.com/okanbeydanol/cordova-plugin-call-number-helper/releases)
+# [Cordova Call Number](https://github.com/okanbeydanol/cordova-plugin-call-number-helper) [![Release](https://img.shields.io/npm/v/cordova-plugin-call-number-helper.svg?style=flat)](https://github.com/okanbeydanol/cordova-plugin-call-number-helper/releases)
 
 Call a number directly from your cordova application.
 
