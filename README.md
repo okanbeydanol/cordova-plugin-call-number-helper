@@ -22,6 +22,7 @@ After the device is ready, you can use the plugin via the global `cordova.plugin
 
 ```javascript
 var CallNumber = cordova.plugins.CallNumber;
+
 CallNumber.callNumber(CALL_US_NUMBER, false);
 
 CallNumber.isCallSupported(console.log.bind(console))

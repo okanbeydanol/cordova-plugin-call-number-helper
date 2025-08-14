@@ -1,4 +1,4 @@
-package com.okanbeydanol.callnumber;
+package com.okanbeydanol.callNumber;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
